@@ -1,0 +1,16 @@
+.button_rules {
+    padding: 10px 20px;
+    background: #493407;
+    border: none;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+    border-radius: 7px;
+    font-family: Cinzel;
+    font-size: large;
+}
+
+.button_rules:hover {
+    background-color: white;
+    color: #493407;
+}
+

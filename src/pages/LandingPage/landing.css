@@ -1,0 +1,66 @@
+main {
+    width: 100%;
+    height: 87.5vh;
+}
+
+h3 {
+    font-family: Cinzel;
+    font-style: lighter;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+
+.bg-container {
+    position: absolute;
+    width: 100%;
+    height: 87.5vh;
+    background: url('../../assets/fondo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    z-index: -2;
+    opacity: 1;
+    top: 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    text-align: justify;
+    gap: 30px;
+    padding-top: 250px;
+    
+}
+
+
+
+.play-button {
+    padding: 10px 20px;
+    background: #493407;
+    transition: all 0.5s ease-in;
+    text-decoration: none;
+    border-radius: 7px;
+    font-family: Cinzel;
+    font-style: light;
+}
+
+.play-button:hover {
+    background-color: white;
+    color: #493407;
+}
+
+
+@media screen and (max-width: 850px) {
+    .bg-container {
+        height: 100.5vh;
+    }
+
+    .content {
+        font-size: 13px;
+    }
+}

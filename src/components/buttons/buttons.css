@@ -1,0 +1,65 @@
+button  {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    border: 0.7px solid #000;
+    border-radius: 0;
+    cursor: pointer;
+  }
+
+button:hover {
+    opacity: 0.8;
+  }
+
+.buttonA {
+    background-color: rgb(81, 129, 137);
+}
+
+.disabled-button {
+    cursor: not-allowed;
+  }
+
+.disabled-button:hover {
+    opacity: 1;
+  }
+
+.buttonA-image {
+    width: 10vh; 
+    height: 10vh;
+}
+
+.buttonM {
+    background-color: rgb(129, 112, 142);
+}
+
+.buttonM-image {
+    width: 10vh; 
+    height: 10vh;
+}
+
+.buttonV {
+    background-color: rgb(131, 130, 50);
+}
+
+.buttonV-image {
+    width: 10vh; 
+    height: 10vh;
+}
+
+.buttonN {
+    background-color: rgb(140, 85, 35);
+}
+
+.buttonN-image {
+    width: 10vh; 
+    height: 10vh;
+}
+
+.buttonR {
+    background-color: rgb(136, 37, 79);
+}
+
+.buttonR-image {
+    width: 10vh; 
+    height: 10vh;
+}

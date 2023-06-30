@@ -1,0 +1,141 @@
+main {
+    width: 100%;
+    height: 87.5vh;
+}
+
+button{
+    padding: 7px 17px;
+    background: #493407;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+    border-radius: 7px;
+    font-family: Cinzel;
+    border: none;
+}
+
+.cerrar_sesion {
+  background: #493407;
+  transition: all 0.3s ease-in;
+  text-decoration: none;
+  border-radius: 7px;
+  font-family: Cinzel;
+}
+
+
+.bg-containerlogin {
+    width: 100%;
+    height: 87.5vh;
+    z-index: -2;
+    background: url('../../assets/about.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    opacity: 0.8;
+}
+
+.Login {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 30vh; /* Ajusta el valor según sea necesario */
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin-top: 20vh; */
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color: rgba(19, 19, 19, 0.622);
+    font-family: Cinzel;
+    align-content: center;
+    align-items: center;
+    font-size: large;
+    text-align: center;
+    color: white;
+
+  }
+  
+  .Login form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Cinzel;
+    text-align: center;
+    
+  }
+
+  .Login form input[type="text"],
+  .Login form input[type="email"],
+  .Login form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: white;
+    font-family: Cinzel;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: medium;
+  }
+  
+  .Login form input[type="submit"] {
+    background-color: rgba(223, 223, 223, 0.681);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Cinzel;
+    align-items: center;
+    font-size: medium;
+    text-align: center;
+  }
+  
+  .Login form input[type="submit"]:hover {
+    background-color: #8b8b8b;
+    
+  }
+
+  .error {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ff4d4d; /* red */
+    border-radius: 5px;
+    color: #ff4d4d; /* red */
+    background-color: #ffe6e6; /* light red */
+    text-align: center;
+  }
+
+  .successMsg {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    /* border: 1px solid #5cff4d; green */
+    border-radius: 5px;
+    color: #ffffff; /* green */
+    font-size: larger;
+    text-align: center;
+  }
+
+
+.play-button {
+  padding: 10px 20px;
+  background: #493407;
+  transition: all 0.5s ease-in;
+  text-decoration: none;
+  border-radius: 7px;
+  font-family: Cinzel;
+  font-style: light;
+}
+
+.play-button:hover {
+    background-color: white;
+    color: #493407;
+}
+
+.boton {
+  padding-top: 5vh;
+}
