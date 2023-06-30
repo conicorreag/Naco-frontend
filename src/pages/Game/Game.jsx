@@ -8,6 +8,7 @@ import { useState, useEffect, useContext } from 'react';
 import { AuthContext } from '../../auth/AuthContext';
 import { AttackContext } from './Context/AttackContext';
 import Board from "./Board.jsx";
+import VITE_BACKEND_URL from "../../config.js";
 
 
 function Game() {
@@ -30,7 +31,7 @@ function Game() {
 
   // Llamamos board
   useEffect(() => {
-    axios.post(`${import.meta.env.VITE_BACKEND_URL}/board`, {
+    axios.post(`${VITE_BACKEND_URL}/board`, {
       user_id: parseInt(id)
     })
     .then((response) => {
@@ -46,7 +47,7 @@ function Game() {
   useEffect(() => {
     const interval = setInterval(() => {
       if (repartido === false){
-        axios.get(`${import.meta.env.VITE_BACKEND_URL}/repartir/${id}`)
+        axios.get(`${VITE_BACKEND_URL}/repartir/${id}`)
         .then((response) => {
           console.log("---Repartir----")
           if (response.data.playing) {
@@ -78,7 +79,7 @@ function Game() {
   useEffect(() => {
     if (enjuego === true){
       // const interval2 = setInterval(() => {
-        axios.get(`${import.meta.env.VITE_BACKEND_URL}/update/${id}`)
+        axios.get(`${VITE_BACKEND_URL}/update/${id}`)
         .then((response) => {
           if (response.data.playing) {
             if (response.data.turn !== turn){

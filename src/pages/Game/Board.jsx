@@ -13,7 +13,7 @@ import ButtonM from "../../components/buttons/ButtonM";
 import ButtonN from "../../components/buttons/ButtonN";
 import ButtonR from "../../components/buttons/ButtonR";
 import ButtonV from "../../components/buttons/ButtonV";
-
+import VITE_BACKEND_URL from "../../config.js";
 
 function Board() {
     const { id, username } = useContext(AuthContext);
@@ -120,7 +120,7 @@ function Board() {
 
     // Maneja atacar
     function handleClick(id_button) {
-        axios.post(`${import.meta.env.VITE_BACKEND_URL}/attack/`, {
+        axios.post(`${VITE_BACKEND_URL}/attack/`, {
             attacker: parseInt(id),
             territory_attacked_id: parseInt(id_button),
         })

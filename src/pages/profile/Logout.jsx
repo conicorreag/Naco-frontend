@@ -3,6 +3,7 @@ import './login.css';
 import { AuthContext } from '../../auth/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import VITE_BACKEND_URL from "../../config.js";
 
 const LogoutButton = () => {
   const {logout, id} = useContext(AuthContext);
@@ -12,7 +13,7 @@ const LogoutButton = () => {
   const handleLogout = () => {
     logout();
     navigate('/');
-    axios.post(`${import.meta.env.VITE_BACKEND_URL}/logout`, {
+    axios.post(`${VITE_BACKEND_URL}/logout`, {
       user_id: id,
     }).then((response) => {
       console.log(response.data.message);
