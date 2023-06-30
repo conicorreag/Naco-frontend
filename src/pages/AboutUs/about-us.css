@@ -32,7 +32,7 @@ h1 {
     font-size: 1.5vw;
     text-align: justify;
     gap: 30px;
-    background: url('../../assets/about.jpg') no-repeat center center fixed;
+    background: url('../../../public/assets/about.jpg') no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -95,7 +95,7 @@ h1 {
 .foto1 {
     width: 200px;
     height: 200px;
-    background-image: url('../../assets/foto.jpeg');
+    background-image: url('../../../public/assets/foto.jpeg');
     margin: 0;
     padding: 0;
     background-size: cover;
@@ -105,7 +105,7 @@ h1 {
 .foto2 {
     width: 200px;
     height: 200px;
-    background-image: url('../../assets/foto2.jpg');
+    background-image: url('../../../public/assets/foto2.jpg');
     margin: 0;
     padding: 0;
     background-size: cover;

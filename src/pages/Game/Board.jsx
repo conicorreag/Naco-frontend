@@ -1,8 +1,8 @@
 import React from "react";
 import './game.css';
-import baratheonImage from '../../assets/baratheon.png';
-import targarianImage from '../../assets/targarian.png';
-import starkImage from '../../assets/stark.png';
+import baratheonImage from '../../../public/assets/baratheon.png';
+import targarianImage from '../../../public/assets/targarian.png';
+import starkImage from '../../../public/assets/stark.png';
 import axios from 'axios';
 import { useEffect, useContext, useState } from 'react';
 import { AuthContext } from '../../auth/AuthContext';

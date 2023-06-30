@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import './rules.css'
 import RulesButton from "./RulesButton";
 import CompButton from "./CompButton";
-import fichasImage from '../../assets/fichas.jpg';
-import mapaImage from '../../assets/mapa.png';
-import vecinosImage from '../../assets/regla_vecinos.jpg';
-import dadosImage from '../../assets/dados.jpg';
+import fichasImage from '../../../public/assets/fichas.jpg';
+import mapaImage from '../../../public/assets/mapa.png';
+import vecinosImage from '../../../public/assets/regla_vecinos.jpg';
+import dadosImage from '../../../public/assets/dados.jpg';
 
 function Rules() {
 	
