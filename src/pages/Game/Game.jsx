@@ -155,7 +155,7 @@ function Game() {
       setIsPopupWinnerOpen(true);
       setEnjuego(false);
       localStorage.setItem('enjuego', enjuego);
-      setWinner(null);
+      
     }
   }, [winner]);
 

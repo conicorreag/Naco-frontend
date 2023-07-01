@@ -69,6 +69,7 @@ function Board() {
     useEffect(() => {
         handleTerritories();
     });
+    
 
     // Maneja los territorios
     const handleTerritories = () => {
